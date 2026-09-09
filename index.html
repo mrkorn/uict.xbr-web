@@ -1,11 +1,182 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>UICT XBR</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-family:
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+      background:
+        linear-gradient(
+          135deg,
+          #f4f7fb,
+          #e7edf5
+        );
+
+      color: #243142;
+    }
+
+    .card {
+      width: min(520px, calc(100% - 32px));
+
+      background: white;
+
+      border-radius: 18px;
+
+      padding: 42px 36px;
+
+      text-align: center;
+
+      box-shadow:
+        0 12px 40px
+        rgba(0, 0, 0, 0.10);
+    }
+
+    .logo {
+      width: 72px;
+      height: 72px;
+
+      margin: 0 auto 20px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      border-radius: 16px;
+
+      background: #1f5fae;
+
+      color: white;
+
+      font-size: 30px;
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 0;
+
+      font-size: 30px;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      margin-top: 8px;
+
+      color: #687587;
+
+      font-size: 15px;
+    }
+
+    .description {
+      margin: 28px 0;
+
+      line-height: 1.7;
+
+      color: #4b5969;
+    }
+
+    .download {
+      display: inline-block;
+
+      padding: 14px 30px;
+
+      border-radius: 10px;
+
+      background: #1f5fae;
+
+      color: white;
+
+      text-decoration: none;
+
+      font-size: 16px;
+      font-weight: 600;
+
+      transition:
+        transform .15s ease,
+        background .15s ease;
+    }
+
+    .download:hover {
+      background: #174d90;
+
+      transform:
+        translateY(-1px);
+    }
+
+    .note {
+      margin-top: 18px;
+
+      font-size: 13px;
+
+      color: #8a95a3;
+    }
+
+    footer {
+      margin-top: 36px;
+
+      padding-top: 22px;
+
+      border-top:
+        1px solid #e6eaf0;
+
+      font-size: 12px;
+
+      color: #9aa3ad;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>UICT XBR</h1>
-  <p>XBR Application</p>
+
+  <main class="card">
+
+    <div class="logo">
+      XBR
+    </div>
+
+    <h1>UICT XBR</h1>
+
+    <div class="subtitle">
+      X-Bar R Inspection Application
+    </div>
+
+    <div class="description">
+      Download the latest version of
+      UICT XBR for Windows.
+    </div>
+
+    <a
+      class="download"
+      href="https://yourvisioninfo.com/download/xbr.exe">
+      Download XBR
+    </a>
+
+    <div class="note">
+      Windows application
+    </div>
+
+    <footer>
+      UICT · YOURVISION
+    </footer>
+
+  </main>
+
 </body>
 </html>
